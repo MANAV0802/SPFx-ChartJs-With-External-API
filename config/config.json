@@ -17,11 +17,20 @@
           "manifest": "./src/webparts/suhaniChanges/SuhaniChangesWebPart.manifest.json"
         }
       ]
+    },
+    "hello-world-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/helloWorld/HelloWorldWebPart.js",
+          "manifest": "./src/webparts/helloWorld/HelloWorldWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
   "localizedResources": {
     "ChartspfxWebPartStrings": "lib/webparts/chartspfx/loc/{locale}.js",
-    "SuhaniChangesWebPartStrings": "lib/webparts/suhaniChanges/loc/{locale}.js"
+    "SuhaniChangesWebPartStrings": "lib/webparts/suhaniChanges/loc/{locale}.js",
+    "HelloWorldWebPartStrings": "lib/webparts/helloWorld/loc/{locale}.js"
   }
 }

@@ -2,8 +2,11 @@
   "@microsoft/generator-sharepoint": {
     "plusBeta": false,
     "isCreatingSolution": false,
-    "nodeVersion": "18.19.1",
-    "sdksVersions": {},
+    "nodeVersion": "18.20.8",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.24.0"
+    },
     "version": "1.21.1",
     "libraryName": "chartspfx",
     "libraryId": "3ec1ff30-c5fe-42ff-a912-f62d8e8b4261",
